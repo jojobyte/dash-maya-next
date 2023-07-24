@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  transpilePackages: ['@dashincubator/secp256k1', 'dashkeys'],
+}
 
-module.exports = nextConfig
+module.exports = nextConfig;
