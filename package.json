@@ -2,6 +2,10 @@
   "name": "dash-maya-next",
   "version": "0.1.0",
   "private": true,
+  "browser": {
+    "dashkeys": false,
+    "@dashincubator/secp256k1": false
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +17,8 @@
     "eslint-config-next": "13.4.12",
     "next": "13.4.12",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "@dashincubator/secp256k1": "^1.7.1-5",
+    "dashkeys": "1.0.1"
   }
 }
